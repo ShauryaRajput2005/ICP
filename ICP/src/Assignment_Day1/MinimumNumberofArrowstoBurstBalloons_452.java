@@ -2,6 +2,10 @@ package Assignment_Day1;
 import java.util.*;
 
 public class MinimumNumberofArrowstoBurstBalloons_452 {
+	
+//	Time Complexity: O(n log n) 
+//	Space Complexity: O(1) 
+	
     public static void main(String[] args) {
         int[][] points1 = {{10,16},{2,8},{1,6},{7,12}};
         System.out.println(findMinArrowShots(points1)); // 2

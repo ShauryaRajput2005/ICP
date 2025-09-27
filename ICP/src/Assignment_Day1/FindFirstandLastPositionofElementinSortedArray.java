@@ -1,6 +1,9 @@
 import java.util.*;
 
-public class FindFirstAndLastPosition {
+public class FindFirstandLastPositionofElementinSortedArray {
+	
+//	Time Complexity: O(log n)
+//	Space Complexity: O(1)
 
     public static void main(String[] args) {
         int[] nums1 = {5,7,7,8,8,10};

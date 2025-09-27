@@ -3,6 +3,9 @@ package Assignment_Day1;
 import java.util.*;
 
 public class SlidingWindowMaximum {
+	
+//	Time Complexity: O(n) 
+//	Space Complexity: O(k) 
 
     public static void main(String[] args) {
         int[] nums1 = { 1, 3, -1, -3, 5, 3, 6, 7 };
