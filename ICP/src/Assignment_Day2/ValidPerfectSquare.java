@@ -6,7 +6,7 @@ public class ValidPerfectSquare {
 		  int[] testCases = {16, 14, 1, 1000000, 808201};
 
 	        for (int num : testCases) {
-	            System.out.println("Input: " + num + " → Output: " + isPerfectSquare(num));
+	            System.out.println(num + ":" + isPerfectSquare(num));
 	        }
 	    }
 
@@ -17,7 +17,7 @@ public class ValidPerfectSquare {
 	            return true;
 	        }
 
-	        long start = 1, end = num;
+	        long start = 1, end = num/2;
 
 	        while (start <= end) {
 	            long mid = start + (end - start) / 2;
