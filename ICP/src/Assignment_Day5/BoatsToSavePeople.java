@@ -7,7 +7,7 @@ public class BoatsToSavePeople {
         Solution sol = new Solution();
         int[] people = {3,5,3,4};
         int limit = 5;
-        System.out.println(sol.numRescueBoats(people, limit)); // expected 4
+        System.out.println(sol.numRescueBoats(people, limit)); //  4
     }
 }
 

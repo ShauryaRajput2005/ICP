@@ -6,7 +6,7 @@ public class NonOverlappingIntervals {
     public static void main(String[] args) {
         Solution sol = new Solution();
         int[][] intervals = {{1,2},{2,3},{3,4},{1,3}};
-        System.out.println(sol.eraseOverlapIntervals(intervals)); //  1
+        System.out.println(sol.eraseOverlapIntervals(intervals)); // output  1
     }
 }
 
