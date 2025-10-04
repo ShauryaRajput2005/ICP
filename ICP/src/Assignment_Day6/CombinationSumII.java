@@ -27,12 +27,11 @@ public class CombinationSumII {
     public static void main(String[] args) {
         int[] candidates1 = {10,1,2,7,6,1,5};
         int target1 = 8;
-        System.out.println("Example 1:");
         System.out.println(combinationSum2(candidates1, target1));
 
         int[] candidates2 = {2,5,2,1,2};
         int target2 = 5;
-        System.out.println("Example 2:");
+
         System.out.println(combinationSum2(candidates2, target2));
     }
 }

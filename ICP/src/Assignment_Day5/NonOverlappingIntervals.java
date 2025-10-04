@@ -21,7 +21,7 @@ class Solution {
 
         for (int i = 1; i < intervals.length; i++) {
             if (end > intervals[i][0]) {
-                cnt++; // overlap
+                cnt++; 
             } else {
                 end = intervals[i][1];
             }

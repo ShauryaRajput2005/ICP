@@ -17,12 +17,12 @@ public class Combinations {
         }
         if (idx > n) return;
 
-        // include current number
+        // include
         ans.add(idx);
         backtrack(result, ans, n, idx + 1, k, cnt + 1);
         ans.remove(ans.size() - 1);
 
-        // exclude current number
+        // exclude 
         backtrack(result, ans, n, idx + 1, k, cnt);
     }
 

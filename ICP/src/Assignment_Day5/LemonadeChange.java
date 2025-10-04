@@ -22,7 +22,7 @@ class Solution {
                 if (five == 0) return false;
                 five--;
                 ten++;
-            } else { // bill == 20
+            } else { 
                 if (ten > 0 && five > 0) {
                     ten--;
                     five--;
