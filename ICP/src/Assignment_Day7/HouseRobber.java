@@ -1,4 +1,4 @@
-package AssignmentDay7;
+package Assignment_Day7;
 
 public class HouseRobber {
 
